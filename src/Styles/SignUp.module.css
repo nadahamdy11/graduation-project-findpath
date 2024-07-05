@@ -1,0 +1,154 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.firstform{
+    width: 40%;
+    padding: 0px 10px 0px 90px;
+}
+.firstform h2{
+    font-weight: 700;
+}
+.firstform .firstname,.firstform .lastname{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+}
+.firstform .input, .firstform .dateof{
+    border: .5px solid rgb(190, 189, 189);
+    width: auto;
+    height: 53px;
+    font-size: 12px;
+    border-radius: 20px;
+    text-indent: 10px;
+    box-shadow: rgba(191, 191, 193, 0.25) 0px 6px 12px -2px;
+}
+
+.form{
+    height: auto;
+}
+.form .nextbutton{
+    width: auto;
+    height: 54px;
+    background-color: black;
+    color: white;
+    font-Size: 20px;
+    text-align: center;
+     border-radius: 20px
+}
+.form .or{
+    font-weight: 600;
+}
+.form .flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+.googlebtn{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    margin-left: 6%;
+
+}
+ .googlebtn:hover{
+    background-color:#FDB706;
+    color: black;
+    border: 1px solid #FDB706;
+}
+ .googleicon{
+    width: 19px;
+    height: 18px;
+    margin-right: 5px;
+}
+.secondimg{
+    width: 60%;
+    background-image: url("../Assets/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-left: 30%;
+}
+.secondimg .deliveryimg{
+    width: 700px;
+    height: auto;
+    margin-top: 50%;
+    margin-left: -50%;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .firstform,.secondimg{
+        width: 100%;
+        
+    }
+    .form .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .form .nextbutton{
+        width:300px;
+        margin-right: 30px;
+    }
+    .form .flex .googlebtn{
+        margin-left: 20%;
+    }
+    .secondimg 
+    ,.deliveryimg{
+        display: none;
+    }
+    .firstform{
+        width: 40%;
+        padding: 0px 10px 0px 10px;
+    }
+    
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (max-width: 763px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .firstform,.secondimg{
+        width: 100%;
+        
+    }
+    .form .nextbutton{
+        width:300px;
+        margin-right: 30px;
+    }
+    .form .flex .googlebtn{
+        margin-left: 20%;
+    }
+    .secondimg 
+    ,.deliveryimg{
+        display: none;
+    }
+  }
+
+
+
+
+  
+  

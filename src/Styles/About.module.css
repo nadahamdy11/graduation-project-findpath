@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-color: white;
+    
+}
+h4{
+    color:#FFCD00;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.row{
+    margin-left: 120px;
+    font-size: 20px;
+    line-height:38.73px ;
+    margin-bottom: 100px;
+}
+ h1{
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+}
+.flex{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+ .plus{
+    font-size: 48px;
+    color: #FFCD00;
+    margin-left: 3px;
+    font-weight: 900;
+
+}
+ h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.cards .card1{
+    background-color:#FFCD00;
+    height:300px;
+    width: 27%;
+    border-radius:32px;
+    margin-right:10%; 
+    margin-left:10%; 
+    text-align:center;
+}
+.cards .card1 .easyimg{
+    width: 99%;
+    height: 200px;
+    margin-top: 20px;
+}
+.cards .card1 .easyp{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.cards .card1 .workimg{
+    width:55%;
+    height: 200px;
+    margin-top: 20px;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 500px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .cards .card1{
+        width: 230px;
+        margin-bottom: 20px;
+    }
+    .cards .card1 .easyimg{
+        width: 210px;
+    }
+    .cards .card1 .easyp{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .plus{
+        font-size: 35px;
+        margin-left: 5px;
+        font-weight: 700;
+    
+    }
+     h6{
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+    }
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (max-width: 763px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    
+    }
+    
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  }

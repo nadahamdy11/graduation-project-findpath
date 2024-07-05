@@ -1,0 +1,61 @@
+h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #FFCD00;
+}
+
+button {
+  background-color: transparent;
+  font-weight: bold;
+  float: right;
+  width: 60px;
+  height: 60px;
+  color: black;
+  margin: 0px 0.5rem;
+  margin: 20px 0px;
+  border: 0 solid;
+  transition: all .5s;
+}
+
+.swiper-nav-btns button:hover {
+  cursor: pointer;
+}
+
+.reviewcard {
+  position: relative;
+
+}
+
+.image {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  z-index: 2200;
+  position: absolute;
+  bottom: 390px;
+  margin-left: -90px;
+
+}
+
+.card {
+  padding: 10px;
+  margin-top: 3rem;
+  border-radius: 32px;
+  border: 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card:hover {
+  background-color: #ffcc00;
+  transition: all .5s;
+}
+
+.slide {
+  display: flex;
+  margin: 0px 5rem;
+  padding-top: 5rem;
+}

@@ -1,0 +1,14 @@
+.download{
+    float: right;
+    width: auto;
+    background-color: #FFCD00;
+    height:40px;
+    text-align:center;
+    border-radius:20px;
+    letter-spacing:1px;
+    color: black;
+    margin: 0;
+}
+.data{
+    background-color: antiquewhite;
+}

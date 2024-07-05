@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .flex{
+     display:flex ;
+     flex-direction: row;
+
+}
+.flex .iconLeft{
+     font-size: 20px;
+     color: black;
+}
+.flex .modaltitle{
+    padding: 10px 120px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: black;    
+}
+.confirmbttn{
+    width: 500px;
+    height: 40px;
+    background-color:#FDB706;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 10px;
+}
+.confirmbttn:hover{
+   background-color: black;
+   color: #FDB706;
+}
+.flex .iconlocation{
+    margin-right: 20px;
+    width: 50px;
+    height: 110px;
+}
+.flex .locationbutt{
+    height: 45px;
+    border-radius: 15px;
+    border: .5px solid rgb(167, 165, 165);
+}
+.flex .iconloc{
+    margin-right: 25px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}

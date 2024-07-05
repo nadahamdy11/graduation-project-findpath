@@ -1,0 +1,26 @@
+.logo{
+  padding: 20px 25px;
+}
+div>.triple{
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 120px;
+  margin-left:12px;
+  font-size: 15px;
+}
+.sidbar{
+  background-color: black;
+}
+.Sider button{
+  margin: 50% 5rem !important;
+}
+.logout{
+  margin-right:65.5%;
+  color:#FFCD00;
+
+}
+.logout:focus{
+
+  color:black;
+  
+}

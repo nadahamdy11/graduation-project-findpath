@@ -1,0 +1,30 @@
+.input {
+  width: 30%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("../Assets/search-black-shadow-icon-socialicon-set-png.webp");
+  background-position:10px 9px; 
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  border-radius: 15px;
+  padding: 12px 20px 12px 40px;
+}
+@media (max-width: 480px) {
+  .input{
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .input{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .input {
+    width: 100%;
+  }
+}

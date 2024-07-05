@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.ant-layout {
+  background: white;
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light .ant-menu-item,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu .ant-menu-item,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu .ant-menu-submenu-title {
+  color: #FFCD00
+}
+:where(.css-dev-only-do-not-override-1drr2mu).ant-card .ant-card-body {
+  padding: 0px;
+}
+
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu .ant-menu-item-selected {
+  color: black
+}
+
+:hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu .ant-menu-item-selected {
+  color: black
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-layout .ant-layout-sider-trigger {
+  background: black;
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu .ant-menu-item-selected {
+  color: black;
+  background-color: #FFCD00;
+}
+
+Header {
+  background-color: white;
+}
+
+/* line under header */
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected::after,
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-selected::after {
+  border-bottom-color: black
+}
+
+:hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after,
+:hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-selected::after,
+:hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected::after,
+:hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-selected::after {
+  border-bottom-color: black
+}
+
+.react-chatbot-kit-chat-container {
+  width: auto !important;
+  height: 90vh !important;
+  background-color: #FFCD00 !important;
+  border-radius: 20px !important;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  background-color: #FFCD00 !important;
+
+}
+
+.react-chatbot-kit-chat-message-container {
+  overflow-x: hidden !important;
+}
+
+
+.react-chatbot-kit-chat-header {
+  display: block !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  color: #FFCD00 !important;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 0px !important;
+  background-color: white!important;
+  color: black !important;
+width:fit-content;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #edeceb !important;
+  border-radius: 50px !important;
+  float: left !important;
+  height: 40px !important;
+  align-items: end !important;
+  margin: 5px !important;
+  margin-right:10px !important ;
+  width: 50px !important;
+}
+
+.react-chatbot-kit-chat-btn-send-icon {
+  fill: #FFCD00 !important;
+  width: 20px !important;
+
+}
+.react-chatbot-kit-chat-input{
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+}
+.react-chatbot-kit-chat-input-form {
+  height: 50px !important;
+  width: 50% !important;
+  display: flex;
+  margin-right: 20px;
+  flex-direction: row;
+  margin-bottom: 40px !important;
+  margin-left: 40px !important;
+  background-color: white;
+  border-radius: 15px !important;
+}
+
+Header{
+  background-color: white;
+}
+
+/* line under header */
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected::after, :where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after, :where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected::after{
+  border-bottom-color:black
+}
+:hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after, :hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected::after, :hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after, :hover(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected::after
+{
+  border-bottom-color:black   
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+padding: 0.25rem;
+border-radius: 0.5rem;
+}
+
+label,
+button {
+margin-top: 1rem;
+}
+
+button {
+padding: 0.5rem;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid red;
+  color: black;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+/* in startshiment.jsx */
+:where(.css-dev-only-do-not-override-1drr2mu).ant-steps .ant-steps-item-process .ant-steps-item-icon{
+  background-color: #FFCD00;
+  border-color: #FFCD00;
+}
+:where(.css-dev-only-do-not-override-1drr2mu).ant-steps .ant-steps-item-finish .ant-steps-item-icon{
+  background-color: #FFCD00;
+  border-color: #FFCD00;
+
+}
+:where(.css-dev-only-do-not-override-1drr2mu).ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title::after{
+  background-color: black;
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover{
+  background: #FFCD00;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+      background-color:white;
+  }
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color:black;
+}
+
+
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-tabs .ant-tabs-ink-bar {  background: #FFCD00;
+
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-1drr2mu).ant-table-wrapper .ant-table-thead >tr>td{
+  background-color: #f4f4f4;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.CVC {
+    -moz-appearance: textfield;
+}

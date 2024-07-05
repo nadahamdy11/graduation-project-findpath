@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.photo {
+  background-image: url(../Assets/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  flex: 0 0 auto;
+  width: 58.33333333%
+}
+.img{
+  margin-left:10%;
+  margin-top:15%
+}
+
+@media (max-width: 480px) {
+  .photo {
+    display: none;
+  }
+  div{
+    margin-top: 10%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .photo {
+    display: none;
+  }
+  div{
+    margin-top: 10%;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img{
+    margin-left:5%;
+    margin-top:40%
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  body {
+    background-color: white;
+  }
+}

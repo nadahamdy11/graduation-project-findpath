@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+main {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: #FFCD00;
+  font-size: 32px;
+}
+.subtitle {
+  font-size: 21px;
+}
+
+h1 {
+  font-size: 61px;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 70px 100px;
+  padding: 10px 50px;
+  border: 0px solid;
+  border-radius: 24px;
+  width:auto;
+  float: right;
+  background-color: #FFCD00;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #FFCD00;
+  border: 1px solid #FFCD00;
+}
+/*adj */
+.mobile{
+  width: auto;
+  height: 500px;
+  margin-left: 10%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .btn {
+    font-size: 13px;
+    margin: 20px 0px;
+    width: 100%;
+    float: left;
+  }
+  .mobile{
+    width: 285px;
+    height: 400px;
+    margin-left: 1%;
+  }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .btn {
+    font-size: 10px;
+    margin: 20px 0px;
+    width: 100%;
+    float: left;
+  }
+  .mobile{
+    width: 285px;
+    height: 400px;
+    margin-left: 1%;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .btn {
+    font-size: 12px;
+    margin:30px 0px;
+    width: 100%;
+    float: left;
+  }
+  .mobile{
+    width: 285px;
+    height: 400px;
+    margin-left: 1%;
+  }
+  
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .btn {
+    font-size: 15px;
+    margin: 20px 0px;
+    width: 100%;
+    float: left;
+  }
+
+  
+  
+}

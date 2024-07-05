@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.app{
+  height: 140vh;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+}
+
+.mapContainer {
+  flex: 1;
+  height: 100%;
+  background-color: var(--color-dark--2);
+  position: relative;
+  
+}
+.form{
+  width: 40% ;
+  height: auto;
+  margin: 35px;
+  border-radius: 5%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.paymentform{
+  height: auto;
+  margin: 35px;
+  border-radius: 5%;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+  /*all input size */
+.allinputsize{
+  border: .5px solid rgb(190, 189, 189);
+  width: 90%;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 20px;
+  text-indent: 10px;
+  box-shadow: rgba(191, 191, 193, 0.25) 0px 6px 12px -2px;
+}
+.numericalinput{
+  border: .5px solid rgb(190, 189, 189);
+  width: 90%;
+  height: 45px;
+  font-size: 15px;
+  box-shadow: rgba(191, 191, 193, 0.25) 0px 6px 12px -2px;
+  text-indent: 10px;
+  border-radius: 10px;
+
+}
+.paymentinput{
+  border: .5px solid rgb(190, 189, 189);
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  box-shadow: rgba(191, 191, 193, 0.25) 0px 6px 12px -2px;
+  text-indent: 10px;
+  border-radius: 10px;
+
+}
+input::placeholder {
+font-size: 15px;
+}
+.butn{
+  background-color: #FFCD00;
+  border: 1px solid transparent;
+  width: 95%;
+  margin: 5px;
+  height: 53px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.butn2{
+  background-color: #FFCD00;
+  border: 1px solid transparent;
+  width: 100%;
+  margin: 5px;
+  height: 53px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.locationimg{
+  width: 80%;
+}
+.productweight{
+font-size: 20px;
+font-weight: 500;
+margin: 10px;
+}
+.inputbox{
+margin-left: 10px;
+}
+.step{
+margin-top: 2%;
+width: 80%;
+margin-left: 10%;
+
+}
+.previousbutton{
+float: left;
+margin-left: 30px;
+width: auto;
+
+}
+.nextbutton{
+margin-right :30px;
+background-color: black;
+}
+
+
+.nearestDeliveries{
+position: absolute;
+top: 0;
+left: 0;
+margin-left: 60%;
+margin-top: 10%;
+}
+.recommend{
+width: auto;
+height: auto;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+margin: 20px;
+box-shadow: 5px 5px 5px rgb(215, 215, 215);
+}
+.fair{
+background-color: #FFCD00;
+border: 1px solid transparent;
+width: auto;
+margin: 5px;
+height: auto;
+font-size: 12px;
+border-radius: 20px;    
+display: inline;
+}
+.flex{
+display: flex;
+flex-direction: row;
+}
+.deliveryApprovalImg{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+}
+.acceptButton {
+background-color: #4caf50;
+color: white;
+width: auto;
+height: auto;
+border-radius: 4px;
+cursor: pointer;
+margin-top: -2px;
+}
+.cancelButton{
+background-color: #e61c1c;
+color: white;
+width: auto;
+height: auto;
+border-radius: 4px;
+margin-right: 10px;
+cursor: pointer;
+margin-top: -2px;
+}
+.deliveryOption{
+width: 350px;
+height: 280px;
+margin: 2%;
+padding: 2%;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+box-shadow: rgba(2, 2, 43, 0.5) 0px 6px 12px -2px;
+
+}
+.flex{
+display: flex;
+flex-direction: row;
+}
+.cost{
+  background-color: #FFCD00;
+  border: 1px solid transparent;
+  width: auto;
+  margin: 10px;
+  padding: 5px;
+  height: auto;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 10px;
+  font-family:'Verdana, Geneva, Tahoma, sans-serif';
+}
+.flexcoulmn{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.flexcoulmn2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+  margin-bottom:20px
+}
+.Expiration{
+  display: flex;
+}
+.paymentRow{
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, .1);
+  margin: auto;
+  font-family: cursive;
+  border-radius: 30px;
+
+}
