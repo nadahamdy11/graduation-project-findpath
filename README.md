@@ -1,4 +1,6 @@
+few of our work 
 home screen 
+
 ![Home1 (4)](https://github.com/user-attachments/assets/6e066147-b7ee-4169-9e9f-e159e18ed20a)
 
 recommendation system screen 
